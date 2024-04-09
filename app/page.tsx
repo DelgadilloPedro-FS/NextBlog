@@ -43,7 +43,7 @@ export default function Home() {
         </p>
         <button
           className='bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
-          onClick={() => router.push('/posts')} // Replace with actual post route
+          onClick={() => router.push('/dashboard')}
         >
           Explore Our Posts
         </button>
